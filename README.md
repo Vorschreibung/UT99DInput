@@ -1,6 +1,9 @@
 # UT99DInput
-Unreal Tournament (1999) mouse acceleration fix
+a fork of [dpjudas/UT99Dinput](https://github.com/dpjudas/UT99DInput) mouse-acceleration fix
 
-This project is a minimal reimplementation of dinput.dll that works with Unreal Tournament.
+This project builds a small `dinput.dll` shim that disables ingame mouse-acceleration, described [here](http://donewmouseaccel.blogspot.com/2010/03/markc-windows-7-mouse-acceleration-fix.html), which supposedly crept in, and affects every Windows release, after/including Windows7.
 
-To use it, drop the dinput.dll next to UnrealTournament.exe and turn on Direct Input in the Input menu in the game.
+This fork adds a fix for a crosshair-cursor, that would appear after ALT+TABing out/in of/to the game and would not leave until restarted or resolution would be changed.
+
+## Usage
+Drop the `dinput.dll` next to `UnrealTournament.exe` (in the `\System` directory) and turn on **Direct Input** in the Input menu of the game.
