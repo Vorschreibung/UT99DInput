@@ -82,8 +82,8 @@ public:
 			DestroyWindow(window_handle);
 	}
 
-	int x = 0;
-	int y = 0;
+	LONG x = 0;
+	LONG y = 0;
 
 private:
 	LRESULT window_proc(HWND window_handle, UINT message_id, WPARAM wparam, LPARAM lparam)
