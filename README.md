@@ -7,3 +7,6 @@ This fork adds a fix for a crosshair-cursor, that would appear after ALT+TABing 
 
 ## Usage
 Drop the `dinput.dll` (which you can get by either building yourself or [downloading a prebuilt](https://github.com/Vorschreibung/UT99DInput/releases/download/v2/UT99DInput-v2.zip)) next to `UnrealTournament.exe` (in the `\System` directory) and turn on **Direct Input** in the Input menu of the game.
+
+## Building
+Install *Visual Studio 2019 Community Edition* with default paths and use/look into the `build.bat`, you might need to install one or the other component.
