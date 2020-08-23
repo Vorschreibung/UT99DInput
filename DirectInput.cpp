@@ -223,6 +223,8 @@ public:
 
 	STDMETHOD(Unacquire)(THIS)
 	{
+		// workaround/fix for a crosshair-cursor suddenly appearing after ALT+TABing
+		ShowCursor (FALSE);
 		return S_OK;
 	}
 
